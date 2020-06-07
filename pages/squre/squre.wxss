@@ -1,0 +1,146 @@
+@import "../../iconfont/iconfont.wxss";
+
+.back{
+  border-radius: 50%;
+}
+.addfont{
+  font-size: 150rpx;
+  color: rgb(123, 94, 181);
+  position: fixed;
+  bottom: 18rpx;
+  border-radius: 50%;
+  right: 18rpx;
+}
+
+page {
+  background-color: #f7f7f7;
+}
+
+
+.styl{
+  background-color: #fff;
+  width: 100%;
+}
+
+.left image{
+  border-radius: 50%;
+}
+
+.squre {
+  width: 20%;
+  margin-left: 18%;
+  color: rgb(126, 0, 126);
+  align-items: center;
+}
+
+.squre view{
+  font-size: 38rpx;
+  color: #fff;
+}
+
+.add {
+  margin-right: 10%;
+  width: 20%;
+  margin-left: 10%;
+}
+
+.add .iconfont {
+  font-size: 100rpx;
+  color: skyblue;
+}
+
+.mine {
+  width: 20%;
+  margin-right: 10%;
+  align-items: center;
+}
+
+.mine view{
+  font-size: 38rpx;
+  color: black;
+}
+
+
+.first{
+  background-color: #fff;
+  margin-top: 10rpx;
+  width: 100%;
+  height: 180rpx;
+}
+
+.first .left{
+  margin-left: 10%;
+  width: 25%;
+}
+
+.first .left image{
+  margin-top: 5rpx;
+  width: 80%;
+  height: 80%;
+}
+
+.first .right{
+  margin-right: 10%;
+  width: 40%;
+}
+
+.right-top{
+  font-size: 38rpx;
+  color: rgb(93, 78, 123);
+}
+
+.right-bottom{
+  margin-top: 12rpx;
+  font-size: 28rpx;
+  color: #bad;
+}
+
+.first .right view{
+  padding-top: 15rpx;
+}
+
+.second{
+  width: 100%;
+  margin-top: -5rpx;
+}
+
+.secondline{
+  word-break: break-all;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+}
+
+.third{
+  width: 100%;
+  padding-top: 15rpx;
+}
+
+.third .iconfont{
+  font-size: 26rpx;
+  margin-left: 10%;
+  color: #bad;
+}
+
+.third .third-right{
+  margin-right: 10%;
+  font-size: 26rpx;
+  padding-left: 15rpx;
+  color: #bad;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

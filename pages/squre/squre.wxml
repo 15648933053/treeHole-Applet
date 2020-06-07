@@ -1,0 +1,28 @@
+<view class="back">
+  <view class="addfont iconfont icontianjia" bindtap="add"></view>
+</view>
+
+<view wx:for="{{userInfo}}" class="styl">
+	<view class="first flex">
+		<view class="left">
+			<!-- <image src="{{item.face_url}}"></image> -->
+			<image src="{{item.user.face_url}}"></image>
+		</view>
+		<view class="right">
+			<view class="right-top">{{item.user.username}}</view>
+			<view class="right-bottom">{{item.send_timestamp}}</view>
+		</view>
+	</view>
+	<view class="second">
+		<view class="secondline">
+			{{item.content}}
+		</view>
+	</view>
+	<view class="third flex" data-id="{{index}}" bindtap="dianzan">
+		<view class="iconfont icondianzan"></view>
+		<view class="third-right">{{item.totle_likes}}</view>
+	</view>
+	<view style="background-color:#f7f7f7;height:10rpx"></view>
+</view>
+
+<view style="background-color:#f7f7f7;height:160rpx"></view>

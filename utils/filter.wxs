@@ -1,0 +1,18 @@
+module.exports = {
+
+  //处理地址的数据大于1000米的话将数据单位转换成km
+  fmtDistance:function (val) {
+    if(val >= 1000){
+      val = (val/1000).toFixed(2) + "km"
+    }else{
+      val += 'm'
+    }
+    return val
+  },
+
+  //处理性别的转换 , 一般性别在不数据库存储是0 , 1在这个方法中将0,1转换为男女,其中男为0 , 女为除零之外的任意数 , 一般为1
+  fmtGender: function (val){
+    return val ? '女' : '男'
+  }
+
+};

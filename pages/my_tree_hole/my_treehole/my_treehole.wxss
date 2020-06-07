@@ -1,0 +1,122 @@
+@import "../../../iconfont/iconfont.wxss";
+
+page {
+  background-color: #eee;
+}
+
+.top {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.topp {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.touxiang {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nichenwai {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nichenwai view {
+  font-size: 52rpx;
+  height: 150rpx;
+  color: rgb(163, 145, 199);
+}
+
+.touxiang image {
+  margin-top: 60rpx;
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  margin-bottom: 45rpx;
+}
+
+.bootom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bottom-all {
+  background-color: #fff;
+}
+
+.hole-top {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.hole-top view {
+  font-size: 38rpx;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hole-center {
+  padding-top: 16rpx;
+  padding-bottom: 8rpx;
+  padding-left: 5%;
+}
+
+.hole-center {
+  font-size: 28rpx;
+  color: #bad;
+}
+
+.hole-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.third {
+  width: 100%;
+  padding-top: 25rpx;
+}
+
+.third .iconfont {
+  font-size: 26rpx;
+  margin-left: 5%;
+  color: rgb(169, 147, 212);
+}
+
+.third .third-right {
+  margin-right: 10%;
+  font-size: 26rpx;
+  padding-left: 3%;
+  color: rgb(134, 111, 182);
+}
+
+.del {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200rpx;
+}
+
+.delete {
+  color: #bad;
+  size: 30rpx;
+  height: 80rpx;
+  width: 200rpx;
+}

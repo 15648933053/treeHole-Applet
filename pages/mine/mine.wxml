@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="userinfo">
+		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+		<block wx:else>
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.face_url}}" mode="cover"></image>
+			<view class="right flex">
+				<view class="userinfo-nickname">{{userInfo.username}}</view>
+				<view bindtap="xiugai" class="xiugai">点击修改个人资料></view>
+			</view>
+		</block>
+	</view>
+
+	<view style="background-color:#f7f7f7;height:2rpx"></view>
+
+	<view class="serch">
+		<view class="serch-else" bindtap="call">
+			<text>联系我们</text>
+			<text>></text>
+		</view>
+	</view>
+
+	<view class="serch">
+		<view class="serch-else" bindtap="minehole">
+			<text>我的树洞</text>
+			<text>></text>
+		</view>
+	</view>
+
+	<view class="serch">
+		<navigator class="serch-else" url="/pages/PEPLO/notes/notes" hover-class="navigator-hover">
+			<text>我的代办</text>
+			<text>></text>
+		</navigator>
+	</view>
+</view>

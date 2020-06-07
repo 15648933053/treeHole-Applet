@@ -1,0 +1,24 @@
+<view class="sty">
+	<view class="imag" bindtap="image">
+		<image src="{{face_url}}"></image>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>我的昵称</text>
+			<input bindinput="inputname" placeholder="请你的输入昵称吧" value="{{username}}"></input>
+		</view>
+	</view>
+
+	<view class="touxiang">
+		<view class="touxiang-else">
+			<text>我的电话</text>
+			<input bindinput="inputphone" value="{{phone == 'null' ? '' : phone}}" placeholder="请输入你的手机号吧"></input>
+		</view>
+	</view>
+
+	<van-button plain block bind:click="xiugai" color="#bad" type="primary">确定修改</van-button>
+</view>
+
+
+<van-notify id="van-notify" />

@@ -1,0 +1,39 @@
+<view class="top flex">
+	<view class="topp">
+		<view class="touxiang">
+			<image src="{{face_url}}"></image>
+		</view>
+		<view class="nichenwai">
+			<view class="nichen">{{username}}</view>
+		</view>
+	</view>
+	<view style="background-color:#f7f7f7;height:5rpx"></view>
+
+	<view wx:for="{{userInfo}}">
+		<view class="bootom flex">
+			<view class="bottom-all">
+				<view class="hole-top">
+					<view>{{item.content}}</view>
+				</view>
+
+				<view class="hole-center">
+					<view>{{item.send_timestamp}}</view>
+				</view>
+
+				<view class="hole-bottom">
+					<view class="third flex" data-id="{{index}}">
+						<view class="iconfont icondianzan"></view>
+						<view class="third-right">{{item.totle_likes}}</view>
+					</view>
+
+					<view class="del">
+						<button bindtap="delete" data-id="{{index}}" class="delete">删除</button>
+					</view>
+				</view>
+				<view style="background-color:#f7f7f7;height:8rpx"></view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<van-dialog id="van-dialog" />

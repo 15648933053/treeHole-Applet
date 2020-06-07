@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/squre/squre",
+    "pages/index/login",
+    "pages/commit/commit",
+    "pages/mine/mine",
+    "pages/logs/logs",
+    "pages/my_tree_hole/my_information/my_information",
+    "pages/my_tree_hole/my_treehole/my_treehole"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "树洞",
+    "navigationBarTextStyle":"black"
+  },
+
+  "usingComponents": {
+    "van-field": "/components/vant/field/index",
+    "van-button": "/components/vant/button/index",
+    "van-notify": "/components/vant/notify/index",
+    "van-dialog": "/components/vant/dialog/index",
+    "van-datetime-picker": "/components/vant/datetime-picker/index"
+  },
+
+  "tabBar": {
+    "selectedColor": "9b08fb",
+    "color": "#8a8a8a",
+    "list": [{
+      "pagePath": "pages/squre/squre",
+      "text": "广场",
+      "iconPath": "/imgs/squre1.png",
+      "selectedIconPath": "/imgs/squre.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "/imgs/mine1.png",
+      "selectedIconPath": "/imgs/mine.png"
+    }]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,41 @@
+page{
+  background-color: #f7f7f7;
+}
+.textarea{
+  width: 100%;
+  background-color: #fff;
+}
+
+.textinput{
+  width: 96%;
+  height: 500rpx;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 38rpx;
+}
+
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  width: 84%;
+  margin-top: 35rpx;
+  margin-left: 8%;
+  margin-right: 8%;
+  line-height: 100rpx;
+  border-radius: 10rpx;
+  background-color: blueviolet;
+}
+
+.btn1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  font-size: 50rpx;
+  background-color: blueviolet;
+}

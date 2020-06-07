@@ -1,0 +1,9 @@
+<view class="textarea">
+	<textarea placeholder="发条树洞吧~" bindinput="textareaShow" placeholder-style="color:#888 ; font-size:38rpx;" class="textinput" maxlength="-1"></textarea>
+</view>
+
+<view class="btn" bindtap="send">
+	<view>发送</view>
+</view>
+
+<van-notify id="van-notify" />
